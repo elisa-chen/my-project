@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .card-text {
+            color: black;
+            /* font-size: 50px; */
+        }
+
+        .card-img-top {
+            opacity: 0.8;
+        }
+
+        .card {
+            width: 18rem;
+        }
+        
+
+        a:hover {
+            cursor: pointer;
+        }
+
+
+        .navbar {
+            background-color: white;
+        }
+
+        .form-control {
+            width: 25rem;
+            margin: 0 auto;
+        }
+
+        hr {
+            border:none;
+            border-top:2px solid;
+            margin:1em auto; 
+            width:5em;
+            color: #e04f5f;
+        }
+
+        .social-media img {
+            height:50px;
+            width:50px;
+            margin-left: 10px; 
+        }
+
+        
+    </style>
+    <title>QuickFork</title>
+  </head>
+  <body>   
+    <nav class="navbar justify-content-center mb-3">
+        <div class="navbar-brand">  
+            <img src="logo.png" width="300" height="100" alt="logo">
+        </div>
+        <div>
+            <a href="./login.html"><button class="btn btn-outline-danger navbar-btn">Login</button></a>
+        </div>
+    
+    </nav>
+    <main>
+        <p class="text-center mt-5 mb-5">This app lets you pre-order your food so by the time you arrive to the restaurant, your food is hot and ready. <br>Don't worry, you will definitely make it back to work on time. What a time saver!</p>
+        <hr>
+        <h2 class="text-center mb-5 mt-5">What do you feel like eating today?</h2>
+
+
+        <!-- Search form -->
+       <input class="form-control mb-5" type="text" id="filterInput" placeholder="Search restaurants by cuisine" aria-label="Search">
+
+
+        <!--cards-->
+        <div class="container justify-content-center" id="names">
+            <div class="card ml-5 mb-5 d-inline-block p-2 text-center">
+                <img class="card-img-top" src="sushi-image.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <a href="./japanese.html" class="stretched-link">Japanese</a>
+                </div>
+            </div> 
+
+            <div class="card ml-5 mb-5 d-inline-block p-2 text-center">
+                <img class="card-img-top view overlay zoom" src="pizza.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <a href="./pizza.html" class="stretched-link">Pizza</a>
+                </div>
+            </div>
+
+            <div class="card ml-5 mb-5 d-inline-block p-2 text-center">
+                <img class="card-img-top" src="chinese-food-image.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <a href="#" class="stretched-link">Chinese</a>
+                </div>
+            </div>
+
+            <div class="card ml-5 mb-5 d-inline-block p-2 text-center">
+                <img class="card-img-top" src="tacos-image.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <a href="#" class="stretched-link">Mexican</a>
+                </div>
+            </div>
+
+            <div class="card ml-5 mb-5 d-inline-block p-2 text-center">
+                <img class="card-img-top" src="burger.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <a href="#" class="stretched-link">Burgers</a>
+                </div>
+            </div>
+
+            <div class="card ml-5 mb-5 d-inline-block p-2 text-center">
+                <img class="card-img-top" src="vegetarian-image.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <a href="#" class="stretched-link">Vegetarian</a>
+                </div>
+            </div>
+        </div> 
+
+        <div>
+            <p class="text-center">Find us on:</p>
+                <div class="social-media text-center">
+                    <a href="http://instagram.com"><img src="instagram.png"></a>
+                    <a href="http://facebook.com"><img src="facebook.png"></a>
+                    <a href="http://google.com"><img src="google-plus.png"></a><br><br><br>
+                </div>
+            </div>
+        </main>
+        
+    </body>
+
+</html>
